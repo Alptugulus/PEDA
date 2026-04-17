@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { blogPosts } from "@/lib/data/site-data";
 import { Card } from "@/components/ui/card";
 import { BlogCard } from "@/components/sections/blog-card";
@@ -9,7 +9,7 @@ export default async function BlogDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const t = useTranslations();
+  const t = await getTranslations();
   const post = blogPosts.find((item) => item.slug === slug) ?? blogPosts[0];
   const related = blogPosts.filter((item) => item.slug !== post.slug).slice(0, 2);
 

@@ -2,6 +2,9 @@
   "name": "peda",
   "version": "1.0.0",
   "description": "Modern multilingual frontend website for PEDA",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
