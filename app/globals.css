@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #1e293b;
+  --muted: #64748b;
+  --brand-yellow: #f4d94c;
+  --brand-blue: #085e9d;
+  --brand-green: #007a3f;
+  --brand-orange: #db5f31;
+  --brand-purple: #605dc8;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased selection:bg-brand-yellow/60;
+}
+
+.container-peda {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.section-peda {
+  @apply py-12 md:py-16;
+}
+
+.section-muted {
+  @apply bg-white/80;
+}
+
+.stack-peda {
+  @apply space-y-4 md:space-y-6;
+}
+
+.focus-ring {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue;
+}

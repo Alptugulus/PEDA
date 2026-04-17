@@ -1,0 +1,82 @@
+{
+  "tagline": "Ein Kind, das mit Vertrauen unterstutzt wird, bluht in jeder Jahreszeit.",
+  "location": { "short": "Önay Garden Residence", "full": "Cumhuriyet Viertel, 1979. Str. Nr:16 Etage:2 Tur:44 Esenyurt / Istanbul" },
+  "nav": { "home": "Startseite", "about": "Uber Uns", "workshops": "Workshops", "events": "Veranstaltungen", "blog": "Blog", "gallery": "Galerie", "contact": "Kontakt" },
+  "hero": { "badge": "Kinder- und Erwachsenenwerkstatt", "title": "Ein warmer Entwicklungsraum fur Kinder, Erwachsene und Familien", "description": "PEDA ist ein warmer und vertrauensvoller Lebensraum, der entwicklungsorientierte Workshops, Beratung und Unterstutzungsprogramme fur Kinder, Erwachsene, Familien und Institutionen anbietet.", "primaryCta": "Workshops Ansehen", "secondaryCta": "Kontakt Aufnehmen" },
+  "home": {
+    "introTitle": "PEDA Nah Kennenlernen",
+    "introSubtitle": "Eine warme und inklusive Workshop-Kultur",
+    "introBody": "Bei PEDA werden alle Programme fur Kinder, Erwachsene und Familien von Fachpersonen nach individuellem Bedarf geplant. Unser Ziel ist ein sicherer und einladender Raum, in dem sich jede Person mit Vertrauen entwickeln kann."
+  },
+  "audience": { "children": "Kinder", "adults": "Erwachsene", "families": "Familien", "institutions": "Institutionen", "students": "Schuler:innen" },
+  "audienceDesc": { "children": "Wir starken das Potenzial von Kindern mit sicheren und altersgerechten Workshop-Inhalten.", "adults": "Wir bieten Programme, die personliche Entwicklung, Achtsamkeit und Kommunikation fordern.", "families": "Mit Elternberatung und gemeinsamen Entwicklungsformaten starken wir familiäre Bindungen.", "institutions": "Wir bieten strukturierte, entwicklungsorientierte Losungen fur institutionelle Bedarfe." },
+  "sections": { "services": { "title": "Ausgewahlte Leistungen", "subtitle": "Entwicklungsbereiche fur jedes Alter und jeden Bedarf" }, "audience": { "title": "Fur wen sind wir da?", "subtitle": "Inklusive Unterstutzungsfelder von Kindern bis Institutionen" }, "why": { "title": "Warum PEDA?", "subtitle": "Vertrauensbasiert, ganzheitlich und professionell", "body": "Jeder Inhalt wird so gestaltet, dass die Entwicklung in emotionaler, sozialer und kommunikativer Hinsicht ganzheitlich unterstutzt wird." }, "events": { "title": "Kommende Veranstaltungen", "subtitle": "Workshops und Treffen im Kalender" }, "blog": { "title": "Aus dem Blog", "subtitle": "Warme und verstandliche Inhalte zur Entwicklungsreise" }, "gallery": { "title": "Momente aus PEDA", "subtitle": "Bunte Eindrücke aus unserem Atelier" }, "contactTeaser": { "title": "Lernen Sie PEDA kennen", "subtitle": "Kontaktieren Sie uns zu Workshops und Unterstutzungsbereichen" } },
+  "whyItems": [
+    "Vertrauensbasierter Ansatz",
+    "Ganzheitlicher Blick auf Kinder, Erwachsene und Familien",
+    "Strukturierte Inhalte mit Expert:innenbegleitung",
+    "Warme, moderne und inklusive Workshop-Atmosphare",
+    "Systematische Struktur zur Entwicklungsbegleitung"
+  ],
+  "services": {
+    "parent": { "title": "Entwicklungsworkshops mit und ohne Eltern", "short": "Soziale, emotionale und kognitive Entwicklung wird durch altersgerechte Workshops unterstutzt.", "long": "Diese Workshops mit und ohne Elternbeteiligung helfen Kindern, in einem sicheren Umfeld zu lernen, ihre Ausdrucksfahigkeit zu entwickeln und Beziehungen zu starken." },
+    "languages": { "title": "Englisch- und Deutsch-Workshops", "short": "Sprachlernen wird durch naturliche Interaktion, Spiel und aktive Teilnahme gefordert.", "long": "Die Englisch- und Deutsch-Workshops ermoglichen einen freudvollen, naturlichen und nachhaltigen Zugang zu neuen Sprachen." },
+    "assessment": { "title": "Entwicklungstest und Verlauf", "short": "Bewertung und Verlauf helfen, den Entwicklungsprozess naher zu verstehen.", "long": "Entwicklungstest und Verlauf werden strukturiert, um Starken, Unterstutzungsfelder und Entwicklungsbedurfnisse klarer zu erkennen." },
+    "consulting": { "title": "Elternberatung", "short": "Beratung hilft, die Eltern-Kind-Beziehung zu starken und Entwicklung gesund zu begleiten.", "long": "Elternberatung unterstutzt bei Alltagsherausforderungen, Kommunikationsstil, Grenzen, emotionaler Begleitung und Entwicklungsprozessen." },
+    "psychology": { "title": "Unterstutzung durch Klinische Psycholog:innen", "short": "Bedarfsorientierte Expertise fordert psychisches Wohlbefinden und Selbstwahrnehmung.", "long": "Die klinisch-psychologische Unterstutzung bietet einen vertrauensvollen Raum fur Kinder, Jugendliche und Erwachsene und wird individuell gestaltet." },
+    "coaching": { "title": "Coaching fur Mittel- und Oberstufe", "short": "Strukturiertes Coaching unterstutzt Lernen, Motivation und Zielmanagement.", "long": "Coaching fur Mittel- und Oberstufe unterstutzt Planung, Fokus, Verantwortungsubernahme, Zielsetzung und Prozessmanagement." }
+  },
+  "events": {
+    "pageTitle": "Workshops und Treffen, die Sie im Kalender erwarten",
+    "pageDesc": "Verfolgen Sie PEDA-Veranstaltungen und entdecken Sie passende Programme nach Altersgruppe und Inhalt.",
+    "featured": "Highlight",
+    "category": { "workshop": "Workshop", "family": "Familie", "language": "Sprache" },
+    "age": { "children": "6-9 Jahre", "parent": "Eltern", "preteen": "8-12 Jahre" },
+    "schedule": {
+      "title": "Wochenplan",
+      "item1": "Samstag: Kindergruppen-Workshops",
+      "item2": "Sonntag: Familientreffen und Beratung"
+    },
+    "items": [
+      { "title": "Kreativer Spielworkshop", "desc": "Gruppenarbeit mit Fokus auf Geschichten und Kunst.", "date": "26. April 2026" },
+      { "title": "Elternrunde", "desc": "Gesprache uber Emotionsregulation im Alltag.", "date": "03. Mai 2026" },
+      { "title": "Mini Sprachclub", "desc": "Kommunikation mit Englisch- und Deutschspielen.", "date": "10. Mai 2026" }
+    ]
+  },
+  "blog": {
+    "pageTitle": "Inhalte, die die Entwicklungsreise begleiten",
+    "pageDesc": "Finden Sie warme und verstandliche Inhalte zu Kindesentwicklung, Elternschaft, Sprache, psychologischer Unterstutzung und Schulercoaching.",
+    "featuredImagePlaceholder": "Titelbild Platzhalter",
+    "articleBody": "In diesem Beitrag teilen wir praktische Schritte zur Entwicklungsforderung im Familien- und Schulalltag.",
+    "related": "Ahnliche Beitrage",
+    "categories": { "childDevelopment": "Kindesentwicklung", "parentGuidance": "Elternbegleitung", "languageWorkshops": "Sprachworkshops", "psychologicalSupport": "Psychologische Unterstutzung", "studentCoaching": "Schulercoaching", "events": "Veranstaltungen", "education": "Kindesentwicklung", "family": "Elternbegleitung", "guidance": "Schulercoaching" },
+    "posts": [
+      { "title": "Warum spielerisches Lernen stark wirkt", "excerpt": "Ein Blick auf kognitive und soziale Vorteile des Spiels.", "date": "18. Marz 2026" },
+      { "title": "5 Schritte fur Emotionsregulation zu Hause", "excerpt": "Praktische Tipps fur ruhigere Kommunikation in der Familie.", "date": "05. April 2026" },
+      { "title": "Balance im Jugendcoaching", "excerpt": "So bleibt Motivation trotz Zielverfolgung erhalten.", "date": "12. April 2026" }
+    ]
+  },
+  "gallery": {
+    "pageTitle": "Ausgewahlte Momente aus PEDA",
+    "pageDesc": "Entdecken Sie unser Atelier, unsere Veranstaltungen und farbenfrohe Momente der Entwicklungsreise.",
+    "categories": { "all": "Alle", "children": "Kinder", "family": "Familie", "language": "Sprache" },
+    "items": [{ "title": "Kunstsession" }, { "title": "Familientreffen" }, { "title": "Sprachspiel" }, { "title": "Geschichtenzeit" }, { "title": "Teamaktivitat" }, { "title": "Farbatelier" }, { "title": "Fokustraining" }, { "title": "Rhythmusspiel" }, { "title": "Glucklicher Moment" }]
+  },
+  "about": { "heroTitle": "Bei PEDA beginnt Entwicklung mit Vertrauen", "heroDesc": "PEDA wurde geschaffen, um Kindern, Erwachsenen, Familien und Institutionen einen warmen und verlasslichen entwicklungsorientierten Workshop-Raum zu bieten.", "intro": "PEDA ist eine Kinder-Erwachsenen-Werkstatt, die Entwicklung nicht nur akademisch oder verhaltensorientiert betrachtet, sondern als Ganzes mit emotionalen, sozialen und kommunikativen Dimensionen. Ziel ist ein sicherer Entwicklungsraum fur jede Altersgruppe.", "who": { "title": "PEDA", "desc": "Eine Kinder-Erwachsenen-Werkstatt mit ganzheitlichem Entwicklungsansatz." }, "mission": { "title": "Mission", "desc": "Jede Entwicklungsreise mit Vertrauen, Verstandnis und Expertise begleiten und ein inklusives, inspirierendes Umfeld schaffen." }, "vision": { "title": "Vision", "desc": "Ein vertrauenswurdiges, zeitgemaes und inspirierendes Zentrum fur Kinder-, Erwachsenen- und Familienarbeit." }, "approach": { "title": "Unser Ansatz", "desc": "Bei PEDA pflegen wir eine warme, respektvolle und bedarfsorientierte Kommunikation. Strukturierte Inhalte, fachliche Begleitung und sichere Interaktionsraume stutzen den Entwicklungsprozess." }, "support": { "title": "Wen unterstutzen wir?", "desc": "Wir starken Kinder, Jugendliche, Erwachsene, Eltern und Institutionen durch bedarfsgerechte Programme und professionelle Begleitung." } },
+  "workshops": { "heroTitle": "Entwicklungsraume fur jedes Alter und jeden Bedarf", "heroDesc": "Die Leistungen bei PEDA wurden entwickelt, um Kinder, Erwachsene, Familien und Schuler:innen in ihren Entwicklungsprozessen vielseitig zu unterstutzen." },
+  "contact": {
+    "pageTitle": "Nehmen Sie Kontakt mit PEDA auf",
+    "pageDesc": "Kontaktieren Sie uns fur Informationen zu Workshops, Veranstaltungen und Unterstutzungsbereichen.",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "formHint": "Dieses Formular ist nur UI und sendet keine Daten.",
+    "openingHours": "Offnungszeiten",
+    "openingHoursWeekday": "Wochentage: 10:00 - 19:00",
+    "openingHoursWeekend": "Wochenende: 10:00 - 17:00",
+    "whatsapp": "Via WhatsApp Kontaktieren",
+    "form": { "name": "Vollstandiger Name", "email": "E-Mail", "message": "Ihre Nachricht", "send": "Nachricht Senden" }
+  },
+  "cta": { "title": "Lernen Sie PEDA kennen", "description": "Gemeinsam planen wir das passende Programm fur Sie und Ihr Kind.", "button": "Einfuhrungsgesprach Anfragen" },
+  "footer": { "quickLinks": "Schnellzugriff", "contact": "Kontaktinformationen" },
+  "common": { "readMore": "Mehr Lesen", "loadMore": "Mehr Laden", "mapPlaceholder": "Kartenbereich (Platzhalter)", "openInMaps": "In Maps Öffnen" }
+}

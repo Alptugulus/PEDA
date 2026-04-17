@@ -1,0 +1,162 @@
+{
+  "tagline": "Güvenle desteklenen çocuk, her mevsim çiçek açar.",
+  "location": {
+    "short": "Önay Garden Residence",
+    "full": "Cumhuriyet Mahallesi, 1979. Sk. No: 16 Kat: 2 İç Kapı No: 44 Esenyurt / İstanbul"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "workshops": "Atölyeler",
+    "events": "Etkinlik Takvimi",
+    "blog": "Blog",
+    "gallery": "Galeri",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "badge": "Çocuk - Yetişkin Atölyesi",
+    "title": "Çocuklar, yetişkinler ve aileler için sıcak bir gelişim alanı",
+    "description": "PEDA; çocuklar, yetişkinler, aileler ve kurumlar için gelişim odaklı atölyeler, danışmanlık ve destek programları sunan sıcak ve güvenilir bir yaşam alanıdır.",
+    "primaryCta": "Atölyeleri İncele",
+    "secondaryCta": "İletişime Geç"
+  },
+  "home": {
+    "introTitle": "PEDA’da gelişim yolculuğuna eşlik ediyoruz",
+    "introSubtitle": "Güvenli, sıcak ve ilham veren bir atölye deneyimi",
+    "introBody": "PEDA’da her bireyin gelişim yolculuğuna yaşına, ihtiyacına ve potansiyeline uygun bir yaklaşımla eşlik ediyoruz. Çocuklardan yetişkinlere, ailelerden kurumlara kadar uzanan destek alanlarımızla güvenli, sıcak ve ilham veren bir atölye deneyimi sunuyoruz."
+  },
+  "audience": { "children": "Çocuklar", "adults": "Yetişkinler", "families": "Aileler", "institutions": "Kurumlar", "students": "Öğrenciler" },
+  "audienceDesc": {
+    "children": "Yaş gelişimine uygun, destekleyici ve güvenli atölye içerikleriyle çocukların potansiyelini güçlendiriyoruz.",
+    "adults": "Bireysel gelişimi destekleyen, farkındalık ve iletişim becerilerini besleyen programlar sunuyoruz.",
+    "families": "Ebeveyn danışmanlığı ve birlikte gelişimi destekleyen çalışmalarla aile içi bağı güçlendirmeyi hedefliyoruz.",
+    "institutions": "İhtiyaca özel içerikler ve yapılandırılmış destek alanlarıyla kurumlara yönelik gelişim odaklı çözümler sunuyoruz."
+  },
+  "sections": {
+    "services": { "title": "Öne Çıkan Hizmetler", "subtitle": "Her yaşa ve ihtiyaca uygun gelişim alanları" },
+    "audience": { "title": "Kimler için buradayız?", "subtitle": "Çocuklardan kurumlara uzanan kapsayıcı destek alanları" },
+    "why": { "title": "Neden PEDA?", "subtitle": "Güven temelli, bütünsel ve uzman yaklaşım", "body": "Her içerik, bireyin gelişim sürecini duygusal, sosyal ve iletişimsel boyutlarıyla ele alacak şekilde yapılandırılır." },
+    "events": { "title": "Yaklaşan Etkinlikler", "subtitle": "Takvimde sizi bekleyen atölyeler ve buluşmalar" },
+    "blog": { "title": "Blog’dan Seçmeler", "subtitle": "Gelişim yolculuğuna eşlik eden sıcak içerikler" },
+    "gallery": { "title": "PEDA’dan Kareler", "subtitle": "Atölye ortamımızdan renkli anlar" },
+    "contactTeaser": { "title": "PEDA ile tanışın", "subtitle": "Atölyelerimiz ve destek alanlarımız için bize ulaşın" }
+  },
+  "whyItems": [
+    "Güven temelli yaklaşım",
+    "Çocuk, yetişkin ve aile odaklı bütünsel bakış",
+    "Uzman desteğiyle yapılandırılmış içerikler",
+    "Sıcak, modern ve kapsayıcı atölye ortamı",
+    "Gelişimi takip eden ve destekleyen sistemli yapı"
+  ],
+  "services": {
+    "parent": {
+      "title": "Ebeveynli & Ebeveynsiz Gelişimsel Atölyeler",
+      "short": "Çocukların yaş ve gelişim özelliklerine uygun şekilde planlanan atölyelerle sosyal, duygusal ve bilişsel gelişim desteklenir.",
+      "long": "Ebeveynli ve ebeveynsiz seçeneklerle sunulan bu atölyeler, çocuğun güvenli bir ortamda öğrenmesini, ifade becerilerini geliştirmesini ve ilişkisel bağlarını güçlendirmesini hedefler."
+    },
+    "languages": {
+      "title": "İngilizce & Almanca Atölyeler",
+      "short": "Dil öğrenimini doğal etkileşim, oyun ve katılım temelli içeriklerle destekleyen atölye programları sunulur.",
+      "long": "İngilizce ve Almanca atölyeleri; çocukların ve katılımcıların yeni bir dili keyifli, doğal ve kalıcı bir deneyimle tanımasına yardımcı olur."
+    },
+    "assessment": {
+      "title": "Gelişim Testi & Takibi",
+      "short": "Bireyin gelişim sürecini daha yakından anlamaya yardımcı olan değerlendirme ve takip çalışmaları yapılır.",
+      "long": "Gelişim testi ve takip süreçleri; çocukların güçlü yönlerini, desteklenmesi gereken alanlarını ve gelişimsel ihtiyaçlarını daha net değerlendirmek için yapılandırılır."
+    },
+    "consulting": {
+      "title": "Ebeveyn Danışmanlığı",
+      "short": "Ebeveynlerin çocuklarıyla kurduğu ilişkiyi güçlendirmek ve gelişim sürecini sağlıklı şekilde desteklemek amacıyla danışmanlık sunulur.",
+      "long": "Ebeveyn danışmanlığı; günlük yaşamda karşılaşılan zorluklar, iletişim dili, sınır koyma, duygusal destek ve gelişim süreçlerine dair rehberlik sağlar."
+    },
+    "psychology": {
+      "title": "Klinik Psikolog Desteği",
+      "short": "İhtiyaca göre uzman desteğiyle bireysel farkındalık ve psikolojik iyi oluşu destekleyen çalışmalar yürütülür.",
+      "long": "Klinik psikolog desteği; çocuklar, gençler ve yetişkinler için güven temelli bir uzman desteği alanı sunar. Süreç, bireyin ihtiyaçlarına göre yapılandırılır."
+    },
+    "coaching": {
+      "title": "Ortaokul & Lise Öğrenci Koçluğu",
+      "short": "Öğrencilerin akademik süreçlerini, motivasyonlarını ve hedef yönetimlerini destekleyen yapılandırılmış koçluk çalışmaları sunulur.",
+      "long": "Ortaokul ve lise öğrencilerine yönelik koçluk programları; planlama, odaklanma, sorumluluk alma, hedef belirleme ve süreç yönetimi alanlarında destek sağlar."
+    }
+  },
+  "events": {
+    "pageTitle": "Takvimde sizi bekleyen atölyeler ve buluşmalar",
+    "pageDesc": "PEDA’da düzenlenen etkinlikleri takip edin, yaş gruplarına ve içeriklere göre size uygun programları keşfedin.",
+    "featured": "Öne Çıkan Etkinlik",
+    "category": { "workshop": "Atölye", "family": "Aile", "language": "Dil" },
+    "age": { "children": "6-9 Yaş", "parent": "Ebeveyn", "preteen": "8-12 Yaş" },
+    "schedule": {
+      "title": "Haftalık Program Akışı",
+      "item1": "Cumartesi: Çocuk grup atölyeleri",
+      "item2": "Pazar: Aile buluşmaları ve danışmanlık"
+    },
+    "items": [
+      { "title": "Yaratıcı Oyun Atölyesi", "desc": "Hikâye ve sanat odaklı çocuk grup çalışması.", "date": "26 Nisan 2026" },
+      { "title": "Ebeveyn Buluşması", "desc": "Günlük rutinlerde duygusal düzenleme üzerine söyleşi.", "date": "03 Mayıs 2026" },
+      { "title": "Mini Dil Kulübü", "desc": "İngilizce ve Almanca kelime oyunları ile iletişim.", "date": "10 Mayıs 2026" }
+    ]
+  },
+  "blog": {
+    "pageTitle": "Gelişim yolculuğuna eşlik eden içerikler",
+    "pageDesc": "Çocuk gelişimi, ebeveynlik, dil, psikolojik destek ve öğrenci koçluğu alanlarında hazırlanan içeriklerle bilgiye sıcak ve anlaşılır bir dille ulaşın.",
+    "featuredImagePlaceholder": "Kapak Görseli Alanı",
+    "articleBody": "Bu yazıda, gelişim sürecini ev, okul ve sosyal yaşamda destekleyen pratik önerileri sade bir dille paylaşıyoruz.",
+    "related": "Benzer Yazılar",
+    "categories": {
+      "childDevelopment": "Çocuk Gelişimi",
+      "parentGuidance": "Ebeveyn Rehberliği",
+      "languageWorkshops": "Dil Atölyeleri",
+      "psychologicalSupport": "Psikolojik Destek",
+      "studentCoaching": "Öğrenci Koçluğu",
+      "events": "Etkinlikler",
+      "education": "Çocuk Gelişimi",
+      "family": "Ebeveyn Rehberliği",
+      "guidance": "Öğrenci Koçluğu"
+    },
+    "posts": [
+      { "title": "Oyunla Öğrenme Neden Güçlüdür?", "excerpt": "Oyunun bilişsel ve sosyal katkılarını birlikte inceleyelim.", "date": "18 Mart 2026" },
+      { "title": "Evde Duygu Düzenleme İçin 5 Adım", "excerpt": "Aile içinde daha sakin bir iletişim için uygulanabilir öneriler.", "date": "05 Nisan 2026" },
+      { "title": "Ergen Koçluğunda Denge Kurmak", "excerpt": "Hedef takibi yaparken motivasyonu korumanın yolları.", "date": "12 Nisan 2026" }
+    ]
+  },
+  "gallery": {
+    "pageTitle": "PEDA’da geçen anlardan seçmeler",
+    "pageDesc": "Atölye ortamımızı, etkinliklerimizi ve gelişim yolculuğuna eşlik eden renkli anları keşfedin.",
+    "categories": { "all": "Hepsi", "children": "Çocuk", "family": "Aile", "language": "Dil" },
+    "items": [
+      { "title": "Sanat Çalışması" }, { "title": "Aile Buluşması" }, { "title": "Dil Oyunu" },
+      { "title": "Hikâye Saati" }, { "title": "Takım Etkinliği" }, { "title": "Renkli Atölye" },
+      { "title": "Odak Çalışması" }, { "title": "Ritim Oyunu" }, { "title": "Mutlu An" }
+    ]
+  },
+  "about": {
+    "heroTitle": "PEDA’da gelişim, güvenle başlar",
+    "heroDesc": "PEDA; çocuklar, yetişkinler, aileler ve kurumlar için gelişim odaklı, sıcak ve güvenilir bir atölye alanı sunmak amacıyla tasarlanmıştır.",
+    "intro": "PEDA, bireyin gelişimini yalnızca akademik ya da davranışsal bir süreç olarak değil; duygusal, sosyal ve iletişimsel yönleriyle bir bütün olarak ele alan bir çocuk-yetişkin atölyesidir. Her yaş grubunun ihtiyacına uygun içerikler üreterek güvenli bir gelişim alanı oluşturmayı hedefler.",
+    "who": { "title": "PEDA", "desc": "Bireyin gelişimini bütünsel yaklaşımla ele alan, çocuk-yetişkin odaklı bir atölye alanıdır." },
+    "mission": { "title": "Misyon", "desc": "Her bireyin gelişim yolculuğunu güven, anlayış ve uzmanlıkla desteklemek; çocuklar, aileler ve yetişkinler için kapsayıcı ve ilham verici bir ortam sunmak." },
+    "vision": { "title": "Vizyon", "desc": "Gelişim odaklı yaklaşımıyla çocuk, yetişkin ve aile çalışmalarında güven veren, çağdaş ve ilham veren bir merkez olmak." },
+    "approach": { "title": "Yaklaşımımız", "desc": "PEDA’da her bireyin ihtiyacına özel, sıcak ve saygılı bir iletişim dili benimsenir. Yapılandırılmış içerikler, uzman desteği ve güvenli etkileşim alanlarıyla gelişim süreci desteklenir." },
+    "support": { "title": "Kimi destekliyoruz?", "desc": "Çocukları, ergenleri, yetişkinleri, ebeveynleri ve kurumları; ihtiyaçlarına uygun programlar ve uzman destekleriyle güçlendirmeyi amaçlıyoruz." }
+  },
+  "workshops": {
+    "heroTitle": "Her yaşa ve her ihtiyaca uygun gelişim alanları",
+    "heroDesc": "PEDA’da sunduğumuz hizmetler; çocukların, yetişkinlerin, ailelerin ve öğrencilerin gelişim süreçlerine çok yönlü destek sağlamak için hazırlanmıştır."
+  },
+  "contact": {
+    "pageTitle": "PEDA ile iletişime geçin",
+    "pageDesc": "Atölyelerimiz, etkinliklerimiz ve destek alanlarımız hakkında bilgi almak için bize ulaşabilirsiniz.",
+    "phone": "Telefon",
+    "address": "Adres",
+    "formHint": "Bu form yalnızca arayüz gösterimi içindir, gerçek gönderim yapılmaz.",
+    "openingHours": "Çalışma Saatleri",
+    "openingHoursWeekday": "Hafta İçi: 10:00 - 19:00",
+    "openingHoursWeekend": "Hafta Sonu: 10:00 - 17:00",
+    "whatsapp": "WhatsApp ile Ulaşın",
+    "form": { "name": "Ad Soyad", "email": "E-posta", "message": "Mesajınız", "send": "Mesaj Gönder" }
+  },
+  "cta": { "title": "PEDA ile tanışın", "description": "Atölyelerimiz ve destek alanlarımız hakkında daha fazla bilgi için bizimle iletişime geçin.", "button": "İletişime Geç" },
+  "footer": { "quickLinks": "Hızlı Linkler", "contact": "İletişim Bilgileri" },
+  "common": { "readMore": "Devamını Oku", "loadMore": "Daha Fazla Yükle", "mapPlaceholder": "Harita Alanı (placeholder)", "openInMaps": "Haritada Aç" }
+}
