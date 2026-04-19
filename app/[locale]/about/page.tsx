@@ -8,7 +8,7 @@ export default function AboutPage() {
     <div className="container-peda py-14">
       <SectionHeading title={t("about.heroTitle")} subtitle={t("about.heroDesc")} />
       <Card className="mb-4">
-        <p className="leading-7 text-slate-700">{t("about.intro")}</p>
+        <p className="whitespace-pre-line leading-7 text-slate-700">{t("about.intro")}</p>
       </Card>
       <div className="grid gap-4 md:grid-cols-2">
         {["who", "mission", "vision", "approach", "support"].map((key) => (

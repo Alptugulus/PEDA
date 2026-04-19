@@ -33,12 +33,16 @@ export function HeroSection() {
       >
         <div className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-brand-yellow/40 blur-2xl" />
         <div className="pointer-events-none absolute -bottom-12 -left-12 h-48 w-48 rounded-full bg-brand-purple/20 blur-2xl" />
-        <div className="mb-4 inline-flex">
-          <Image src="/peda-logo.png?v=2" alt="PEDA logo" width={340} height={155} className="h-16 w-auto sm:h-20" />
+        <div className="mb-4 flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-6">
+          <div className="inline-flex shrink-0">
+            <Image src="/peda-logo.png?v=2" alt="PEDA logo" width={340} height={155} className="h-16 w-auto sm:h-20" />
+          </div>
+          <Badge className="max-w-2xl shrink text-center text-balance leading-relaxed">
+            {t("hero.badge")}
+          </Badge>
         </div>
-        <Badge>{t("hero.badge")}</Badge>
         <h1 className="mt-5 max-w-3xl font-[var(--font-playfair)] text-4xl font-bold text-slate-900 md:text-6xl">{t("hero.title")}</h1>
-        <p className="mt-4 max-w-2xl text-slate-600">{t("hero.description")}</p>
+        <p className="mt-4 max-w-2xl whitespace-pre-line text-slate-600">{t("hero.description")}</p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link href="/workshops" className={cn(buttonVariants({ variant: "default" }))}>
             {t("hero.primaryCta")}

@@ -14,9 +14,9 @@
     "contact": "İletişim"
   },
   "hero": {
-    "badge": "Çocuk - Yetişkin Atölyesi",
+    "badge": "Her çocuk ve ebeveynin hikayesi farklıdır. PEDA'da her birey, kendi hikayesiyle karşılanır.",
     "title": "Çocuklar, yetişkinler ve aileler için sıcak bir gelişim alanı",
-    "description": "PEDA; çocuklar, yetişkinler, aileler ve kurumlar için gelişim odaklı atölyeler, danışmanlık ve destek programları sunan sıcak ve güvenilir bir yaşam alanıdır.",
+    "description": "Biz burada çocukları yalnızca gözlemlemiyoruz; onları gerçekten tanımayı önceliklendiriyor ve her gelişim yolculuğunu bireysel potansiyele göre, kişiye özel bir yaklaşımla destekliyoruz. Aynı şekilde ebeveynlerle kuracağımız bağı da bu yolculuğun ayrılmaz bir parçası olarak görüyor ve birlikte ilerleyen bir gelişim modeli benimsiyoruz.\n\nPEDA'da her süreç; tanışma, detayları inceleme ve hassasiyetle yönlendirme üzerine kurulur. Çünkü gelişim, ancak önemsenen detaylar ve sevgiyle kurulan bir bağ içinde filizlenir.",
     "primaryCta": "Atölyeleri İncele",
     "secondaryCta": "İletişime Geç"
   },
@@ -25,10 +25,10 @@
     "introSubtitle": "Güvenli, sıcak ve ilham veren bir atölye deneyimi",
     "introBody": "PEDA’da her bireyin gelişim yolculuğuna yaşına, ihtiyacına ve potansiyeline uygun bir yaklaşımla eşlik ediyoruz. Çocuklardan yetişkinlere, ailelerden kurumlara kadar uzanan destek alanlarımızla güvenli, sıcak ve ilham veren bir atölye deneyimi sunuyoruz."
   },
-  "audience": { "children": "Çocuklar", "adults": "Yetişkinler", "families": "Aileler", "institutions": "Kurumlar", "students": "Öğrenciler" },
+  "audience": { "children": "Çocuklar & Gençler", "adults": "Yetişkinler", "families": "Aileler", "institutions": "Kurumlar", "students": "Öğrenciler" },
   "audienceDesc": {
-    "children": "Yaş gelişimine uygun, destekleyici ve güvenli atölye içerikleriyle çocukların potansiyelini güçlendiriyoruz.",
-    "adults": "Bireysel gelişimi destekleyen, farkındalık ve iletişim becerilerini besleyen programlar sunuyoruz.",
+    "children": "Gelişimsel oyun atölyeleri, bireysel danışmanlık ve öğrenci koçluğu ile çocuk ve gençlerin potansiyellerini güçlendiriyoruz.",
+    "adults": "Bireysel gelişimi destekleyen farkındalık ve iletişim becerilerini besleyen psikoeğitim atölyeleri ve bireysel görüşmeler sunuyoruz.",
     "families": "Ebeveyn danışmanlığı ve birlikte gelişimi destekleyen çalışmalarla aile içi bağı güçlendirmeyi hedefliyoruz.",
     "institutions": "İhtiyaca özel içerikler ve yapılandırılmış destek alanlarıyla kurumlara yönelik gelişim odaklı çözümler sunuyoruz."
   },
@@ -133,7 +133,7 @@
   "about": {
     "heroTitle": "PEDA’da gelişim, güvenle başlar",
     "heroDesc": "PEDA; çocuklar, yetişkinler, aileler ve kurumlar için gelişim odaklı, sıcak ve güvenilir bir atölye alanı sunmak amacıyla tasarlanmıştır.",
-    "intro": "PEDA, bireyin gelişimini yalnızca akademik ya da davranışsal bir süreç olarak değil; duygusal, sosyal ve iletişimsel yönleriyle bir bütün olarak ele alan bir çocuk-yetişkin atölyesidir. Her yaş grubunun ihtiyacına uygun içerikler üreterek güvenli bir gelişim alanı oluşturmayı hedefler.",
+    "intro": "PEDA'da gelişim, bağ ve güvenle başlar\n\nHer program öncesinde tanışma görüşmeleri ve gelişimsel değerlendirmeler gerçekleştirerek hem çocuğunuz hem sizinle güven ve bağ odaklı ilişki kurmayı ilk adıma koyuyoruz. Ayrıca bu sayede, yaş grubuna uygun gelişim basamaklarına göre yapılandırılmış atölyelerimizde, her çocuğu kendi hızında ve potansiyeline göre destekleme fırsatı elde edebiliyoruz.",
     "who": { "title": "PEDA", "desc": "Bireyin gelişimini bütünsel yaklaşımla ele alan, çocuk-yetişkin odaklı bir atölye alanıdır." },
     "mission": { "title": "Misyon", "desc": "Her bireyin gelişim yolculuğunu güven, anlayış ve uzmanlıkla desteklemek; çocuklar, aileler ve yetişkinler için kapsayıcı ve ilham verici bir ortam sunmak." },
     "vision": { "title": "Vizyon", "desc": "Gelişim odaklı yaklaşımıyla çocuk, yetişkin ve aile çalışmalarında güven veren, çağdaş ve ilham veren bir merkez olmak." },
