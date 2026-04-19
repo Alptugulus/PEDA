@@ -41,8 +41,10 @@ export function HeroSection() {
             {t("hero.badge")}
           </Badge>
         </div>
-        <h1 className="mt-5 max-w-3xl font-[var(--font-playfair)] text-4xl font-bold text-slate-900 md:text-6xl">{t("hero.title")}</h1>
-        <p className="mt-4 max-w-2xl whitespace-pre-line text-slate-600">{t("hero.description")}</p>
+        <h1 className="mt-5 max-w-none text-balance font-[var(--font-playfair)] text-4xl font-bold text-slate-900 md:text-6xl">
+          {t("hero.title")}
+        </h1>
+        <p className="mt-4 max-w-none whitespace-pre-line text-slate-600">{t("hero.description")}</p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link href="/workshops" className={cn(buttonVariants({ variant: "default" }))}>
             {t("hero.primaryCta")}
