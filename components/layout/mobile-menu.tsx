@@ -30,7 +30,7 @@ export function MobileMenu() {
           id="mobile-navigation"
           className="absolute inset-x-0 top-full border-y border-slate-200 bg-white/95 px-4 py-4 shadow-soft backdrop-blur"
         >
-          <nav className="container-peda flex flex-col gap-2">
+          <nav className="container-peda flex flex-col gap-3">
             {navItems.map((item) => (
               <Link
                 key={item.href}

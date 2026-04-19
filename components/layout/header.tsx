@@ -11,12 +11,22 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200/70 bg-slate-50/95 backdrop-blur">
       <TopBar />
-      <div className="relative">
-        <div className="container-peda flex items-center justify-between py-3">
-          <Link href="/" className="focus-ring inline-flex items-center rounded-md">
-            <Image src="/peda-logo.png?v=2" alt="PEDA logo" width={360} height={164} className="h-20 w-auto sm:h-24" priority />
+      <div className="relative overflow-visible">
+        <div className="container-peda flex items-center justify-between py-0">
+          <Link
+            href="/"
+            className="focus-ring relative inline-block aspect-[360/164] h-[5.25rem] shrink-0 overflow-visible rounded-md sm:h-28"
+          >
+            <Image
+              src="/peda-logo.png?v=2"
+              alt="PEDA logo"
+              fill
+              className="object-contain object-left"
+              sizes="(max-width: 640px) 240px, 300px"
+              priority
+            />
           </Link>
-          <nav className="hidden items-center gap-6 text-sm font-medium text-slate-700 lg:flex">
+          <nav className="hidden min-w-0 items-center gap-5 text-sm font-medium text-slate-700 xl:gap-7 lg:flex">
             {navItems.map((item) => (
               <Link key={item.href} href={item.href || "/"} className="focus-ring rounded-md">
                 {t(item.key)}
