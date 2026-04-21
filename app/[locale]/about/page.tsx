@@ -6,7 +6,7 @@ export default function AboutPage() {
   const t = useTranslations();
   return (
     <div className="container-peda py-14">
-      <SectionHeading title={t("about.heroTitle")} subtitle={t("about.heroDesc")} />
+      <SectionHeading title={t("about.heroTitle")} />
       <Card className="mb-4">
         <p className="whitespace-pre-line leading-7 text-slate-700">{t("about.intro")}</p>
       </Card>

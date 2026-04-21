@@ -2,7 +2,6 @@ import { useTranslations } from "next-intl";
 import {
   BlogPreview,
   CTASection,
-  EventsPreview,
   GalleryPreview,
   HeroSection,
   SectionHeading,
@@ -46,7 +45,6 @@ export default function HomePage() {
           </ul>
         </Card>
       </section>
-      <EventsPreview />
       <BlogPreview />
       <GalleryPreview />
       <section className="container-peda section-peda">

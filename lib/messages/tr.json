@@ -1,5 +1,5 @@
 {
-  "tagline": "Güvenle desteklenen çocuk, her mevsim çiçek açar.",
+  "tagline": "PEDA'da Gelişim, Bağ ve Güvenle Başlar.",
   "location": {
     "short": "Önay Garden Residence",
     "full": "Cumhuriyet Mahallesi, 1979. Sk. No: 16 Kat: 2 İç Kapı No: 44 Esenyurt / İstanbul"
@@ -8,7 +8,6 @@
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
     "workshops": "Atölyeler",
-    "events": "Etkinlik Takvimi",
     "blog": "Blog",
     "gallery": "Galeri",
     "contact": "İletişim"
@@ -50,7 +49,7 @@
   ],
   "services": {
     "parent": {
-      "title": "Ebeveynli & Ebeveynsiz Gelişimsel Atölyeler",
+      "title": "Ebeveynli & Ebeveynsiz Gelişimsel Oyun Atölyeleri",
       "short": "Çocukların yaş ve gelişim özelliklerine uygun şekilde planlanan atölyelerle sosyal, duygusal ve bilişsel gelişim desteklenir.",
       "long": "Ebeveynli ve ebeveynsiz seçeneklerle sunulan bu atölyeler, çocuğun güvenli bir ortamda öğrenmesini, ifade becerilerini geliştirmesini ve ilişkisel bağlarını güçlendirmesini hedefler."
     },
@@ -131,9 +130,9 @@
     ]
   },
   "about": {
-    "heroTitle": "PEDA’da gelişim, güvenle başlar",
+    "heroTitle": "PEDA'da Gelişim, Bağ ve Güvenle Başlar",
     "heroDesc": "PEDA; çocuklar, yetişkinler, aileler ve kurumlar için gelişim odaklı, sıcak ve güvenilir bir atölye alanı sunmak amacıyla tasarlanmıştır.",
-    "intro": "PEDA'da gelişim, bağ ve güvenle başlar\n\nHer program öncesinde tanışma görüşmeleri ve gelişimsel değerlendirmeler gerçekleştirerek hem çocuğunuz hem sizinle güven ve bağ odaklı ilişki kurmayı ilk adıma koyuyoruz. Ayrıca bu sayede, yaş grubuna uygun gelişim basamaklarına göre yapılandırılmış atölyelerimizde, her çocuğu kendi hızında ve potansiyeline göre destekleme fırsatı elde edebiliyoruz.",
+    "intro": "Her program öncesinde tanışma görüşmeleri ve gelişimsel değerlendirmeler gerçekleştirerek hem çocuğunuz hem sizinle güven ve bağ odaklı ilişki kurmayı ilk adıma koyuyoruz. Ayrıca bu sayede, yaş grubuna uygun gelişim basamaklarına göre yapılandırılmış atölyelerimizde, her çocuğu kendi hızında ve potansiyeline göre destekleme fırsatı elde edebiliyoruz.",
     "who": { "title": "PEDA", "desc": "Bireyin gelişimini bütünsel yaklaşımla ele alan, çocuk-yetişkin odaklı bir atölye alanıdır." },
     "mission": { "title": "Misyon", "desc": "Her bireyin gelişim yolculuğunu güven, anlayış ve uzmanlıkla desteklemek; çocuklar, aileler ve yetişkinler için kapsayıcı ve ilham verici bir ortam sunmak." },
     "vision": { "title": "Vizyon", "desc": "Gelişim odaklı yaklaşımıyla çocuk, yetişkin ve aile çalışmalarında güven veren, çağdaş ve ilham veren bir merkez olmak." },
