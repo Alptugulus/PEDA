@@ -8,8 +8,11 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.pedaatolye.com"),
-  title: "PEDA - Cocuk Yetiskin Atolye",
-  description: "PEDA cok dilli modern tanitim sitesi",
+  title: {
+    default: "PEDA Atolye",
+    template: "%s | PEDA Atolye"
+  },
+  description: "PEDA cocuk, yetiskin ve aileler icin cok dilli gelisim odakli atolye ve danismanlik hizmetleri sunar.",
   alternates: {
     canonical: "/",
     languages: {
@@ -17,6 +20,23 @@ export const metadata: Metadata = {
       en: "/en",
       de: "/de"
     }
+  },
+  openGraph: {
+    type: "website",
+    url: "https://www.pedaatolye.com",
+    siteName: "PEDA Atolye",
+    title: "PEDA Atolye",
+    description: "PEDA cocuk, yetiskin ve aileler icin cok dilli gelisim odakli atolye ve danismanlik hizmetleri sunar.",
+    locale: "tr_TR"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PEDA Atolye",
+    description: "PEDA cocuk, yetiskin ve aileler icin cok dilli gelisim odakli atolye ve danismanlik hizmetleri sunar."
+  },
+  robots: {
+    index: true,
+    follow: true
   }
 };
 
