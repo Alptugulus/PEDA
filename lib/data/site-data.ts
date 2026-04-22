@@ -25,7 +25,8 @@ export const events = [
 export const blogPosts = [
   { slug: "oyunla-ogrenme", category: "blog.categories.education", title: "blog.posts.0.title", excerpt: "blog.posts.0.excerpt", date: "blog.posts.0.date" },
   { slug: "evde-duygu-duzenleme", category: "blog.categories.family", title: "blog.posts.1.title", excerpt: "blog.posts.1.excerpt", date: "blog.posts.1.date" },
-  { slug: "ergen-koclugunda-denge", category: "blog.categories.guidance", title: "blog.posts.2.title", excerpt: "blog.posts.2.excerpt", date: "blog.posts.2.date" }
+  { slug: "ergen-koclugunda-denge", category: "blog.categories.guidance", title: "blog.posts.2.title", excerpt: "blog.posts.2.excerpt", date: "blog.posts.2.date" },
+  { slug: "dil-atolyeleri-yeni-yol", category: "blog.categories.languageWorkshops", title: "blog.posts.3.title", excerpt: "blog.posts.3.excerpt", date: "blog.posts.3.date" }
 ];
 
 export const galleryItems = Array.from({ length: 9 }).map((_, i) => ({
