@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { ClipboardList, MapPin, Phone } from "lucide-react";
 import { ContactCard } from "@/components/sections/contact-card";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { SectionHeading } from "@/components/sections/site-sections";
 import { GOOGLE_FORM_URL, GOOGLE_MAPS_EMBED_URL } from "@/lib/constants";
 
@@ -24,11 +24,9 @@ export default function ContactPage() {
           <p className="text-sm font-semibold text-slate-700">{t("contact.googleFormTitle")}</p>
         </div>
         <p className="mt-2 text-sm text-slate-600">{t("contact.googleFormDesc")}</p>
-        <Button asChild className="mt-4">
-          <Link href={GOOGLE_FORM_URL} target="_blank" rel="noopener noreferrer">
-            {t("contact.googleFormCta")}
-          </Link>
-        </Button>
+        <Link href={GOOGLE_FORM_URL} target="_blank" rel="noopener noreferrer" className={`${buttonVariants()} mt-4`}>
+          {t("contact.googleFormCta")}
+        </Link>
       </div>
       <div className="mt-6 grid gap-4">
         <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-soft">

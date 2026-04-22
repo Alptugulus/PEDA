@@ -54,7 +54,7 @@ export default async function BlogDetailPage({
         {isGameBasedLearningPost ? (
           <div className="space-y-6 text-slate-700">
             <p className="leading-7">
-              Eğitim dünyasında uzun süre "oyun" ve "öğrenme" iki ayrı kutup olarak görüldü: Oyun eğlence
+              Eğitim dünyasında uzun süre &quot;oyun&quot; ve &quot;öğrenme&quot; iki ayrı kutup olarak görüldü: Oyun eğlence
               içindi, öğrenme ise ciddi bir işti. Ancak modern pedagoji ve nörobilim, bu iki kavramın aslında
               birbirini tamamlayan güçlü bir bütün olduğunu kanıtladı.
             </p>
@@ -172,8 +172,8 @@ export default async function BlogDetailPage({
                 Bilgiyi yalnızca zihne değil, deneyim yoluyla kalıcı hafızaya işler.
               </p>
               <blockquote className="border-l-4 border-slate-300 pl-4 italic text-slate-600">
-                "Çocuklar oyun oynarken aslında hayatın provasını yaparlar. Yetişkinler için ise oyun,
-                yaratıcılığın ve esnek düşünmenin en kısa yoludur."
+                &quot;Çocuklar oyun oynarken aslında hayatın provasını yaparlar. Yetişkinler için ise oyun,
+                yaratıcılığın ve esnek düşünmenin en kısa yoludur.&quot;
               </blockquote>
               <p className="leading-7">
                 Öğrenme sürecine küçük bir oyunlaştırma öğesi eklemek bile, verimliliği ve kalıcılığı tahmin
@@ -200,10 +200,10 @@ export default async function BlogDetailPage({
               </p>
               <ul className="list-disc space-y-1 pl-5">
                 <li>
-                  <strong>Fark et:</strong> "Şu an ne hissediyorum?" sorusunu kendinize sorun.
+                  <strong>Fark et:</strong> &quot;Şu an ne hissediyorum?&quot; sorusunu kendinize sorun.
                 </li>
                 <li>
-                  <strong>Etiketle:</strong> "Şu an çok kaygılıyım" gibi bir ifade, duygunun yoğunluğunu azaltmaya
+                  <strong>Etiketle:</strong> &quot;Şu an çok kaygılıyım&quot; gibi bir ifade, duygunun yoğunluğunu azaltmaya
                   yardımcı olur.
                 </li>
               </ul>
