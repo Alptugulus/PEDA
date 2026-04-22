@@ -152,6 +152,9 @@
     "openingHours": "Çalışma Saatleri",
     "openingHoursWeekday": "Hafta İçi: 10:00 - 19:00",
     "openingHoursWeekend": "Hafta Sonu: 10:00 - 17:00",
+    "googleFormTitle": "Ön Başvuru Formu",
+    "googleFormDesc": "İletişim şeklinizi ve uygun saatinizi belirtin, size en kısa sürede ulaşalım.",
+    "googleFormCta": "Google Formu Aç",
     "whatsapp": "WhatsApp ile Ulaşın",
     "form": { "name": "Ad Soyad", "email": "E-posta", "message": "Mesajınız", "send": "Mesaj Gönder" }
   },
