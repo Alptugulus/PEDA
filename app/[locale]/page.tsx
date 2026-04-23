@@ -1,4 +1,6 @@
 import { useTranslations } from "next-intl";
+import type { Metadata } from "next";
+import { useLocale } from "next-intl";
 import {
   BlogPreview,
   CTASection,
@@ -11,8 +13,55 @@ import { AudienceCard } from "@/components/sections/audience-card";
 import { Card } from "@/components/ui/card";
 import { GOOGLE_MAPS_EMBED_URL } from "@/lib/constants";
 
+type HomePageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: HomePageProps): Promise<Metadata> {
+  const { locale } = await params;
+
+  if (locale === "tr") {
+    return {
+      title: "Istanbul Cocuk Atolyesi | PEDA Atolye",
+      description:
+        "PEDA Atolye, Istanbul'da cocuk gelisimi, ebeveyn rehberligi, dil atolyesi ve ogrenci koclugu alanlarinda uzman destek sunar.",
+      keywords: [
+        "istanbul cocuk atolyesi",
+        "cocuk gelisim atolyesi istanbul",
+        "ebeveyn rehberligi",
+        "dil atolyesi",
+        "ogrenci koclugu"
+      ],
+      alternates: {
+        canonical: "/tr"
+      }
+    };
+  }
+
+  if (locale === "en") {
+    return {
+      title: "Child Development Workshops in Istanbul | PEDA Atolye",
+      description:
+        "PEDA Atolye offers child development workshops, parent guidance, language workshops, and student coaching in Istanbul.",
+      alternates: {
+        canonical: "/en"
+      }
+    };
+  }
+
+  return {
+    title: "Kinderwerkstatt in Istanbul | PEDA Atolye",
+    description:
+      "PEDA Atolye bietet in Istanbul Entwicklungsworkshops fur Kinder, Elternberatung, Sprachworkshops und Schulercoaching an.",
+    alternates: {
+      canonical: "/de"
+    }
+  };
+}
+
 export default function HomePage() {
   const t = useTranslations();
+  const locale = useLocale();
 
   return (
     <>
@@ -22,6 +71,12 @@ export default function HomePage() {
         <SectionHeading title={t("home.introTitle")} subtitle={t("home.introSubtitle")} />
         <Card>
           <p className="max-w-4xl leading-7 text-slate-700">{t("home.introBody")}</p>
+          {locale === "tr" ? (
+            <p className="mt-3 max-w-4xl text-sm leading-7 text-slate-600">
+              PEDA Atolye, Istanbul cocuk atolyesi arayan aileler icin cocuk gelisimi, ebeveyn rehberligi, dil atolyeleri
+              ve ogrenci koclugu alanlarinda uzman destegi sunar.
+            </p>
+          ) : null}
         </Card>
       </section>
       <section className="container-peda section-peda">
