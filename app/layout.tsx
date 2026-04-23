@@ -8,6 +8,11 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.pedaatolye.com"),
+  icons: {
+    icon: [{ url: "/icon.png" }],
+    apple: [{ url: "/apple-icon.png" }],
+    shortcut: ["/icon.png"]
+  },
   title: {
     default: "PEDA Atolye",
     template: "%s | PEDA Atolye"
