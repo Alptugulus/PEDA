@@ -1,9 +1,22 @@
 import { useTranslations } from "next-intl";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ClipboardList, MapPin, Phone } from "lucide-react";
 import { ContactCard } from "@/components/sections/contact-card";
 import { SectionHeading } from "@/components/sections/site-sections";
 import { GOOGLE_FORM_URL, GOOGLE_MAPS_EMBED_URL } from "@/lib/constants";
+import { buildLocaleAlternates } from "@/lib/seo";
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    alternates: buildLocaleAlternates(locale, "/contact")
+  };
+}
 
 export default function ContactPage() {
   const t = useTranslations();

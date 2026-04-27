@@ -18,7 +18,7 @@ export function Header() {
             className="focus-ring relative inline-block aspect-[360/164] h-[5.25rem] shrink-0 overflow-visible rounded-md sm:h-28"
           >
             <Image
-              src="/peda-logo.png?v=2"
+              src="/peda-logo.png"
               alt="PEDA logo"
               fill
               className="object-contain object-left"

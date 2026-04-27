@@ -12,6 +12,7 @@ import {
 import { AudienceCard } from "@/components/sections/audience-card";
 import { Card } from "@/components/ui/card";
 import { GOOGLE_MAPS_EMBED_URL } from "@/lib/constants";
+import { buildLocaleAlternates } from "@/lib/seo";
 
 type HomePageProps = {
   params: Promise<{ locale: string }>;
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
         "ogrenci koclugu"
       ],
       alternates: {
-        canonical: "/tr"
+        ...buildLocaleAlternates(locale)
       }
     };
   }
@@ -44,7 +45,7 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
       description:
         "PEDA Atolye offers child development workshops, parent guidance, language workshops, and student coaching in Istanbul.",
       alternates: {
-        canonical: "/en"
+        ...buildLocaleAlternates(locale)
       }
     };
   }
@@ -54,7 +55,7 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
     description:
       "PEDA Atolye bietet in Istanbul Entwicklungsworkshops fur Kinder, Elternberatung, Sprachworkshops und Schulercoaching an.",
     alternates: {
-      canonical: "/de"
+      ...buildLocaleAlternates(locale)
     }
   };
 }

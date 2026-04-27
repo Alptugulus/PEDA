@@ -35,7 +35,7 @@ export function HeroSection() {
         <div className="pointer-events-none absolute -bottom-12 -left-12 h-48 w-48 rounded-full bg-brand-purple/20 blur-2xl" />
         <div className="mb-4 flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-6">
           <div className="inline-flex shrink-0">
-            <Image src="/peda-logo.png?v=2" alt="PEDA logo" width={340} height={155} className="h-16 w-auto sm:h-20" />
+            <Image src="/peda-logo.png" alt="PEDA logo" width={340} height={155} className="h-16 w-auto sm:h-20" />
           </div>
           <Badge className="max-w-2xl shrink text-center text-balance leading-relaxed">
             {t("hero.badge")}

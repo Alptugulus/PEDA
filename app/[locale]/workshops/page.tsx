@@ -1,8 +1,21 @@
 import { useTranslations } from "next-intl";
+import type { Metadata } from "next";
 import { ServicesGrid, SectionHeading } from "@/components/sections/site-sections";
 import { serviceItems } from "@/lib/data/site-data";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { buildLocaleAlternates } from "@/lib/seo";
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    alternates: buildLocaleAlternates(locale, "/workshops")
+  };
+}
 
 export default function WorkshopsPage() {
   const t = useTranslations();

@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="mt-20 bg-slate-900 text-slate-100">
       <div className="container-peda grid gap-8 py-12 md:grid-cols-3">
         <div>
-          <Image src="/peda-logo.png?v=2" alt="PEDA logo" width={380} height={173} className="h-24 w-auto" />
+          <Image src="/peda-logo.png" alt="PEDA logo" width={380} height={173} className="h-24 w-auto" />
           <p className="mt-3 text-sm text-slate-300">{t("tagline")}</p>
         </div>
         <div>

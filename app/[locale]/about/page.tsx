@@ -1,6 +1,19 @@
 import { useTranslations } from "next-intl";
+import type { Metadata } from "next";
 import { SectionHeading, CTASection } from "@/components/sections/site-sections";
 import { Card } from "@/components/ui/card";
+import { buildLocaleAlternates } from "@/lib/seo";
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    alternates: buildLocaleAlternates(locale, "/about")
+  };
+}
 
 export default function AboutPage() {
   const t = useTranslations();
