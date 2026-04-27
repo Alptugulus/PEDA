@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Brain, ClipboardList, GraduationCap, HeartHandshake, Languages, Users } from "lucide-react";
+import { ArrowRight, Brain, ClipboardList, GraduationCap, HeartHandshake, Languages, Play, Users, X } from "lucide-react";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/routing";
 import { Badge } from "@/components/ui/badge";
@@ -24,6 +25,17 @@ export function SectionHeading({ title, subtitle }: { title: string; subtitle?: 
 
 export function HeroSection() {
   const t = useTranslations();
+  const [isStoryOpen, setIsStoryOpen] = useState(false);
+
+  useEffect(() => {
+    if (!isStoryOpen) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setIsStoryOpen(false);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [isStoryOpen]);
+
   return (
     <section className="container-peda py-16 md:py-24">
       <motion.div
@@ -45,6 +57,12 @@ export function HeroSection() {
           {t("hero.title")}
         </h1>
         <p className="mt-4 max-w-none whitespace-pre-line text-slate-600">{t("hero.description")}</p>
+        <div className="mt-8">
+          <Button type="button" onClick={() => setIsStoryOpen(true)} className="gap-2">
+            <Play className="h-4 w-4 fill-current" />
+            PEDA'nin Hikayesi
+          </Button>
+        </div>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link href="/workshops" className={cn(buttonVariants({ variant: "default" }))}>
             {t("hero.primaryCta")}
@@ -54,6 +72,38 @@ export function HeroSection() {
           </Link>
         </div>
       </motion.div>
+      {isStoryOpen ? (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 p-4 backdrop-blur-sm"
+          onClick={() => setIsStoryOpen(false)}
+        >
+          <div
+            className="relative w-full max-w-sm rounded-[28px] border border-white/20 bg-gradient-to-b from-slate-900 to-black p-2 shadow-[0_30px_100px_rgba(0,0,0,0.65)] sm:max-w-md"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={() => setIsStoryOpen(false)}
+              className="absolute right-3 top-3 z-10 inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/20 bg-black/70 text-white transition hover:bg-black focus-ring"
+              aria-label="Videoyu kapat"
+            >
+              <X className="h-5 w-5" />
+            </button>
+            <video
+              className="aspect-[4/5] h-auto w-full rounded-3xl border border-white/15 object-cover"
+              controls
+              autoPlay
+              playsInline
+              preload="none"
+              poster="/videos/peda-story-hd-poster.jpg"
+              aria-label="PEDA hikayesi tanitim videosu"
+            >
+              <source src="/videos/peda-story-hd.mp4" type="video/mp4" />
+              Tarayiciniz video etiketini desteklemiyor.
+            </video>
+          </div>
+        </div>
+      ) : null}
     </section>
   );
 }
