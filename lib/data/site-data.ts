@@ -29,9 +29,84 @@ export const blogPosts = [
   { slug: "dil-atolyeleri-yeni-yol", category: "blog.categories.languageWorkshops", title: "blog.posts.3.title", excerpt: "blog.posts.3.excerpt", date: "blog.posts.3.date" }
 ];
 
-export const galleryItems = Array.from({ length: 9 }).map((_, i) => ({
-  id: String(i + 1),
-  title: `gallery.items.${i}.title`,
-  category: i % 3 === 0 ? "gallery.categories.children" : i % 3 === 1 ? "gallery.categories.family" : "gallery.categories.language",
-  image: `https://images.unsplash.com/photo-${1500000000000 + i * 123456}?auto=format&fit=crop&w=800&q=80`
-}));
+export type GalleryFilterCategory = "children" | "family" | "language";
+
+export type GalleryItem = {
+  id: string;
+  titleKey: string;
+  categoryLabelKey: string;
+  imageSrc: string;
+  altKey: keyof GalleryPhotoAlts;
+  filterCategory: GalleryFilterCategory;
+};
+
+/** Keys must match `gallery.photoAlts` in messages */
+export type GalleryPhotoAlts = {
+  playroom1: string;
+  classroom: string;
+  amigurumi: string;
+  climbing: string;
+  learningMaterials: string;
+  cozyCorner: string;
+  shelfToys: string;
+};
+
+/** Image filenames do not match scene content; paths are mapped to match each photo’s subject and alt text. */
+export const galleryItems: GalleryItem[] = [
+  {
+    id: "playroom-1",
+    titleKey: "gallery.items.playroom1.title",
+    categoryLabelKey: "gallery.categories.children",
+    imageSrc: "/images/about/classroom-bunny-chairs.png",
+    altKey: "playroom1",
+    filterCategory: "children"
+  },
+  {
+    id: "classroom",
+    titleKey: "gallery.items.classroom.title",
+    categoryLabelKey: "gallery.categories.children",
+    imageSrc: "/images/about/playroom-climbing.png",
+    altKey: "classroom",
+    filterCategory: "children"
+  },
+  {
+    id: "amigurumi",
+    titleKey: "gallery.items.amigurumi.title",
+    categoryLabelKey: "gallery.categories.children",
+    imageSrc: "/images/about/playroom-1.png",
+    altKey: "amigurumi",
+    filterCategory: "children"
+  },
+  {
+    id: "climbing",
+    titleKey: "gallery.items.climbing.title",
+    categoryLabelKey: "gallery.categories.children",
+    imageSrc: "/images/about/amigurumi-family.png",
+    altKey: "climbing",
+    filterCategory: "children"
+  },
+  {
+    id: "learning-materials",
+    titleKey: "gallery.items.learningMaterials.title",
+    categoryLabelKey: "gallery.categories.children",
+    imageSrc: "/images/about/gallery-learning-materials.png",
+    altKey: "learningMaterials",
+    filterCategory: "children"
+  },
+  {
+    id: "cozy-corner",
+    titleKey: "gallery.items.cozyCorner.title",
+    categoryLabelKey: "gallery.categories.family",
+    imageSrc: "/images/about/gallery-cozy-corner.png",
+    altKey: "cozyCorner",
+    filterCategory: "family"
+  },
+  {
+    id: "shelf-toys",
+    titleKey: "gallery.items.shelfToys.title",
+    categoryLabelKey: "gallery.categories.children",
+    imageSrc: "/images/about/gallery-shelf-toys.png",
+    altKey: "shelfToys",
+    filterCategory: "children"
+  }
+];

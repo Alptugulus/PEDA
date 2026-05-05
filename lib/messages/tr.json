@@ -123,12 +123,30 @@
   "gallery": {
     "pageTitle": "PEDA’da geçen anlardan seçmeler",
     "pageDesc": "Atölye ortamımızı, etkinliklerimizi ve gelişim yolculuğuna eşlik eden renkli anları keşfedin.",
+    "videoTitle": "Atölyemize Kısa Bir Bakış",
+    "videoDesc": "Atölye ortamımıza kısa bir bakış.",
+    "videoAriaLabel": "Galeri ortamından bakış videosu",
+    "photosSectionTitle": "Fotoğraflar",
     "categories": { "all": "Hepsi", "children": "Çocuk", "family": "Aile", "language": "Dil" },
-    "items": [
-      { "title": "Sanat Çalışması" }, { "title": "Aile Buluşması" }, { "title": "Dil Oyunu" },
-      { "title": "Hikâye Saati" }, { "title": "Takım Etkinliği" }, { "title": "Renkli Atölye" },
-      { "title": "Odak Çalışması" }, { "title": "Ritim Oyunu" }, { "title": "Mutlu An" }
-    ]
+    "emptyFilter": "Bu kategoride henüz görsel yok.",
+    "items": {
+      "playroom1": { "title": "Oyun ve etkinlik alanı" },
+      "classroom": { "title": "Sınıf ve grup çalışması" },
+      "amigurumi": { "title": "El emeği figürler" },
+      "climbing": { "title": "Tırmanma ve oyun köşesi" },
+      "learningMaterials": { "title": "Kitap ve öğrenme materyalleri" },
+      "cozyCorner": { "title": "Dinlenme köşesi" },
+      "shelfToys": { "title": "Oyuncak rafı" }
+    },
+    "photoAlts": {
+      "playroom1": "Çocuk oyun alanı; hayvan figürlü duvar süsleri, renkli tabureler, yeşil minder ve balkon kapısı",
+      "classroom": "Üç küçük masa ve tavşan kulaklı çocuk sandalyeleri; zeminden tavana pencereler ve mavi tül perdeler",
+      "amigurumi": "Köşede sergilenen el örgüsü amigurumi bebek ve figürler",
+      "climbing": "Pikler tarzı ahşap tırmanma köşesi, yeşil puzzle minder, oyuncak rafları ve barınak alanı",
+      "learningMaterials": "Masada çocuk kitapları, boya kalemleri, kutu oyunları, marakas ve küçük ahşap figürler",
+      "cozyCorner": "Turuncu ve yeşil çocuk koltukları; duvarda pembe kuş desenli el boyaması, önde yeşil yapraklı saksı bitkisi",
+      "shelfToys": "Ahşap raf üzerinde örgü tilki oyuncak ve doğal oyun hamuru; raflarda peluş ve küçük figürler"
+    }
   },
   "about": {
     "heroTitle": "PEDA'da Gelişim, Bağ ve Güvenle Başlar",

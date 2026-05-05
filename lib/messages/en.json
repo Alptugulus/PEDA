@@ -187,41 +187,35 @@
   "gallery": {
     "pageTitle": "Selected moments from life at PEDA",
     "pageDesc": "Discover our workshop environment, events, and colorful moments from the development journey.",
+    "videoTitle": "A quick look around",
+    "videoDesc": "A short look at our workshop environment.",
+    "videoAriaLabel": "Workshop environment quick look video",
+    "photosSectionTitle": "Photos",
     "categories": {
       "all": "All",
       "children": "Children",
       "family": "Family",
       "language": "Language"
     },
-    "items": [
-      {
-        "title": "Art Session"
-      },
-      {
-        "title": "Family Meeting"
-      },
-      {
-        "title": "Language Game"
-      },
-      {
-        "title": "Story Time"
-      },
-      {
-        "title": "Team Activity"
-      },
-      {
-        "title": "Color Workshop"
-      },
-      {
-        "title": "Focus Exercise"
-      },
-      {
-        "title": "Rhythm Play"
-      },
-      {
-        "title": "Happy Moment"
-      }
-    ]
+    "emptyFilter": "No photos in this category yet.",
+    "items": {
+      "playroom1": { "title": "Play and activity space" },
+      "classroom": { "title": "Classroom and small groups" },
+      "amigurumi": { "title": "Handmade figures" },
+      "climbing": { "title": "Climbing and play corner" },
+      "learningMaterials": { "title": "Books and learning materials" },
+      "cozyCorner": { "title": "Cozy corner" },
+      "shelfToys": { "title": "Toy shelf" }
+    },
+    "photoAlts": {
+      "playroom1": "Children’s playroom with animal wall decals, colorful stools, a green foam mat, and balcony doors",
+      "classroom": "Three small activity tables and bunny-ear wooden chairs; floor-to-ceiling windows with sheer blue curtains",
+      "amigurumi": "Hand-crocheted amigurumi dolls and figures displayed against a wall",
+      "climbing": "Pikler-style wooden climbing frame, green puzzle mats, toy shelves, and a play nook",
+      "learningMaterials": "Picture books, jumbo crayons, board games, wooden maracas, and small wooden dolls on a table",
+      "cozyCorner": "Two child armchairs in orange and dark green; hand-painted pink bird mural on the wall and a leafy houseplant",
+      "shelfToys": "Light wood shelf with a crocheted fox, natural play dough, and plush toys in bins"
+    }
   },
   "about": {
     "heroTitle": "At PEDA, growth begins with connection and trust",

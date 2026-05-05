@@ -191,10 +191,20 @@ export function GalleryPreview() {
     <section className="container-peda section-peda">
       <SectionHeading title={t("sections.gallery.title")} subtitle={t("sections.gallery.subtitle")} />
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
-        {galleryItems.slice(0, 6).map((item) => (
-          <div key={item.id} className="aspect-square rounded-2xl bg-gradient-to-br from-brand-yellow/30 to-brand-purple/20 p-4">
-            <p className="text-sm font-semibold">{t(item.title)}</p>
-            <p className="mt-1 text-xs text-slate-600">{t(item.category)}</p>
+        {galleryItems.map((item) => (
+          <div key={item.id} className="overflow-hidden rounded-2xl bg-white shadow-soft">
+            <div className="relative aspect-square bg-slate-100">
+              <Image
+                src={item.imageSrc}
+                alt={t(`gallery.photoAlts.${item.altKey}`)}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 50vw, 33vw"
+              />
+            </div>
+            <div className="p-3">
+              <p className="text-sm font-semibold">{t(item.titleKey)}</p>
+            </div>
           </div>
         ))}
       </div>

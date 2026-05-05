@@ -187,41 +187,35 @@
   "gallery": {
     "pageTitle": "Ausgewahlte Momente aus PEDA",
     "pageDesc": "Entdecken Sie unser Atelier, unsere Veranstaltungen und farbenfrohe Momente der Entwicklungsreise.",
+    "videoTitle": "Ein kurzer Rundblick",
+    "videoDesc": "Ein kurzer Blick in unsere Raumlichkeiten.",
+    "videoAriaLabel": "Kurzer Rundblick aus dem Atelier",
+    "photosSectionTitle": "Fotos",
     "categories": {
       "all": "Alle",
       "children": "Kinder",
       "family": "Familie",
       "language": "Sprache"
     },
-    "items": [
-      {
-        "title": "Kunstsession"
-      },
-      {
-        "title": "Familientreffen"
-      },
-      {
-        "title": "Sprachspiel"
-      },
-      {
-        "title": "Geschichtenzeit"
-      },
-      {
-        "title": "Teamaktivitat"
-      },
-      {
-        "title": "Farbatelier"
-      },
-      {
-        "title": "Fokustraining"
-      },
-      {
-        "title": "Rhythmusspiel"
-      },
-      {
-        "title": "Glucklicher Moment"
-      }
-    ]
+    "emptyFilter": "In dieser Kategorie gibt es noch keine Bilder.",
+    "items": {
+      "playroom1": { "title": "Spiel- und Aktionsbereich" },
+      "classroom": { "title": "Klassenraum und Gruppe" },
+      "amigurumi": { "title": "Handgearbeitete Figuren" },
+      "climbing": { "title": "Kletter- und Spielecke" },
+      "learningMaterials": { "title": "Bucher und Lernmaterialien" },
+      "cozyCorner": { "title": "Ruheecke" },
+      "shelfToys": { "title": "Spielzeugregal" }
+    },
+    "photoAlts": {
+      "playroom1": "Kinderspielbereich mit Tiermotiven an der Wand, bunten Hockern, gruner Schaumstoffmatte und Balkontur",
+      "classroom": "Drei kleine Tische und Holzstuhle mit Hasenohren; bodentiefe Fenster mit blauen Gardinen",
+      "amigurumi": "Handgehakelte Amigurumi-Puppen und Figuren an einer Wand",
+      "climbing": "Pikler-artige Holz-Kletterecke, grune Puzzlematten, Spielzeugregale und Spielbereich",
+      "learningMaterials": "Kinderbucher, dicke Wachsmalkreiden, Gesellschaftsspiele, Maracas und kleine Holzfiguren auf dem Tisch",
+      "cozyCorner": "Zwei Kindersessel in Orange und Dunkelgrun; rosa Vogelmotiv an der Wand und eine grune Zimmerpflanze",
+      "shelfToys": "Holzregal mit gehakelten Fuchs, Natur-Knete und Plustieren in Boxen"
+    }
   },
   "about": {
     "heroTitle": "Bei PEDA beginnt Entwicklung mit Verbundenheit und Vertrauen",
